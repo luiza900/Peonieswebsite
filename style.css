@@ -182,13 +182,12 @@ header {
 
 .factsg {
     display: grid;
-    gap: 15px; 
-    border-radius: 10px;
+    gap: 5px; 
+    border-radius: 5px;
     font-family: fantasy;
-    font-size: larger;
-    padding: 20px;
-    margin: 20px;
-    border: 15px solid lightgray;
+    font-size: medium;
+    padding: 10px;
+    margin: 10px;
     background-color: coral;
     position:sticky;
     top: 0;
@@ -199,18 +198,37 @@ header {
     gap: 20px;
     padding: 10px;
     margin: 15px; 
-    color: palevioletred;
+    font-weight: bold;
     
 
 } 
+
+.a1:hover {
+    color: palevioletred;
+    text-decoration: underline;
+}
 
 .a2 {
    display: flexbox;
     gap: 20px;
     padding: 10px;
     margin: 15px; 
-    color: palevioletred;
+    font-weight: bold;
     
+}
+
+.a2:hover {
+    color: palevioletred;
+    text-decoration: underline;
+} 
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lavender;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
 }
 
 
